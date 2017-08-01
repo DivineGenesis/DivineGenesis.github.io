@@ -44,8 +44,8 @@
 
 #header
 {
-	display:block;
-	margin: 0 auto;
+	font-size:xx-large;
+	text-align:center;
 }
 
 #header:hover
