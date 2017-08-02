@@ -60,6 +60,11 @@
 	height: 100%;
 }
 
+#test2
+{
+	font-size:54px;
+}
+
 * {box-sizing:border-box}
 
 .slideshow-container {
