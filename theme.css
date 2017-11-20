@@ -2,7 +2,6 @@
 {
 	margin: 0px;
  	background-color: #ccc;
- 	 
 	background-size:contain;
 }
 
@@ -23,15 +22,37 @@ ul
 {
 	background-color: #eeeeee;
 	list-style-type: none;
+	border-bottom:thick #ffffff solid;
 	margin: 0;
     padding: 0;
     overflow:hidden;
+    display: flex;
 }
 
 li
 {
 	display:inline-block;
-	 
+	border-top:thick #eeeeee solid;
+	border-right: thin black solid;
+	padding:0px;
+
+ 
+}
+
+#one:hover
+{
+	border-top-color: red;
+}
+ 
+
+#two:hover
+{
+	border-top-color: blue;
+}
+
+#three:hover
+{
+	border-top-color: green;
 }
 
 li a
