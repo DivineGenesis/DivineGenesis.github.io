@@ -2,24 +2,301 @@
 	<head>
 		<title>DivineGenesis Github</title>	
 		<link rel="icon" href="icon.png">
-		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link rel="stylesheet" media="screen" href="css/style.css">
  		<script type="text/javascript" src="scripts/javascript.js"></script>
-	</head>
+ 		
+ 		<link rel="stylesheet" href="css/bootstrap.min.css">
+ 		<link rel="stylesheet" href="css/stylesheet.css">
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+  const crate = new Crate({
+    server: '360327589287559178',
+    channel: '360327628600901632'
+  })
 
-	<body>
-		<div class="menu-container">
-			<a href="https://github.com/DrZoddiak" title="Click to view my Github page!"><img src="images/dino.png" height="363" width="280"></a>
-			<img id="name" src="images/divinegenesis.png">
-			<a href="https://github.com/burpingdog1" title="Click to view my Github page!"><img src="images/bdogs.png" height="363" width="280"></a>
- 			</br></br></br> 
-		</div>	 
-  
-		<ul id="nav">
-  			<li id="one"><a href="index.html">Home</a></li>
-	  		<li id="two"><a href="about.html">About</a></li>
-	  		<li id="three"><a href="contact.html">Contact</a></li>
-		</ul>
-		
-		<div id="footer">&hearts; &copy; 2017 DivineGenesis &hearts;</div>
+  crate.notify('Test notification')
+  crate.on('signIn', data => {
+    console.log(`Guest signed in as ${data.name}`)
+    crate.emit('sendMessage', 'Hello world')
+  })
+</script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+ 	</head>
+
+	<body class="index" id="page-top">	
+	<div id="particles-js">
+		<img src="images/dg1.png" id="title">
+	</div>
+	<script src="js/particles.min.js"></script><script src="js/app.js"></script>
+	
+	 <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">DivineGenesis</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+	<section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="conText" color="white">Projects</h2><hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption" id="">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/null.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                            </div>
+        </div>
+    </section>	
+	
+	<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Soulbound</h2>
+                            <hr class="cube-primary">
+                            <img src="images/null.png" class="img-responsive img-centered" alt="">
+                            <p>The plugin allows you to set certain items to be soulbound! Simply start your server and add and remove items you want to be soulbound using the provided commands. Currently we only support soulbinding on pickup and on use. It binds item to the player and prevents them from using it or picking it up.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Athion Network Build Team</h2>
+                            <hr class="cube-primary">
+                            <img src="images/portfolio_1.png" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in congue mauris. Nunc eu turpis sit amet ligula dapibus condimentum. Vivamus maximus egestas sodales. Suspendisse eu magna nec dolor gravida venenatis quis sit amet nulla. Morbi quis molestie lorem, quis ornare massa. Cras ultricies risus vitae sollicitudin aliquet. Aliquam nibh risus, egestas varius odio vitae, consequat pulvinar sapien.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.athion.net">Athion Network</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.athion.net">January 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.athion.net">Map & Build Creation</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Athion Network Build Team</h2>
+                            <hr class="cube-primary">
+                            <img src="images/portfolio_1.png" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in congue mauris. Nunc eu turpis sit amet ligula dapibus condimentum. Vivamus maximus egestas sodales. Suspendisse eu magna nec dolor gravida venenatis quis sit amet nulla. Morbi quis molestie lorem, quis ornare massa. Cras ultricies risus vitae sollicitudin aliquet. Aliquam nibh risus, egestas varius odio vitae, consequat pulvinar sapien.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.athion.net">Athion Network</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.athion.net">January 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.athion.net">Map & Build Creation</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Athion Network Build Team</h2>
+                            <hr class="cube-primary">
+                            <img src="images/portfolio_1.png" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in congue mauris. Nunc eu turpis sit amet ligula dapibus condimentum. Vivamus maximus egestas sodales. Suspendisse eu magna nec dolor gravida venenatis quis sit amet nulla. Morbi quis molestie lorem, quis ornare massa. Cras ultricies risus vitae sollicitudin aliquet. Aliquam nibh risus, egestas varius odio vitae, consequat pulvinar sapien.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.athion.net">Athion Network</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.athion.net">January 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.athion.net">Map & Build Creation</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Athion Network Build Team</h2>
+                            <hr class="cube-primary">
+                            <img src="images/portfolio_1.png" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in congue mauris. Nunc eu turpis sit amet ligula dapibus condimentum. Vivamus maximus egestas sodales. Suspendisse eu magna nec dolor gravida venenatis quis sit amet nulla. Morbi quis molestie lorem, quis ornare massa. Cras ultricies risus vitae sollicitudin aliquet. Aliquam nibh risus, egestas varius odio vitae, consequat pulvinar sapien.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.athion.net">Athion Network</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.athion.net">January 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.athion.net">Map & Build Creation</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Athion Network Build Team</h2>
+                            <hr class="cube-primary">
+                            <img src="images/portfolio_1.png" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in congue mauris. Nunc eu turpis sit amet ligula dapibus condimentum. Vivamus maximus egestas sodales. Suspendisse eu magna nec dolor gravida venenatis quis sit amet nulla. Morbi quis molestie lorem, quis ornare massa. Cras ultricies risus vitae sollicitudin aliquet. Aliquam nibh risus, egestas varius odio vitae, consequat pulvinar sapien.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.athion.net">Athion Network</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.athion.net">January 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.athion.net">Map & Build Creation</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-easing.js"></script>
+<script src="js/classy.js"></script>
+<script src="js/bootstrap-validation.js"></script>
+<script src="js/animated-header.js"></script>
+<script id="main-script" src="js/index-scripts.js"></script>
+
 	</body>
 </html>

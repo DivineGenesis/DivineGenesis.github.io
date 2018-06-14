@@ -1,16 +1,17 @@
-﻿body
+﻿
+.container
 {
-	margin: 0px;
- 	background-color: #ccc;
-	background-size:contain;
+	background-color:black;
 }
 
-.menu-container 
+#title
 {
-	background-image:url('images/background.png');
-	background-size:cover;
-	padding-top:50px;
-  	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 40%;
+	padding: 200px 0;
+	
 }
 
 #name
@@ -35,42 +36,9 @@ li
 	border-top:thick #eeeeee solid;
 	border-right: thin black solid;
 	padding:0px;
+	margin-left:auto;
 
  
-}
-
-#one:hover
-{
-	border-top-color: red;
-}
- 
-
-#two:hover
-{
-	border-top-color: blue;
-}
-
-#three:hover
-{
-	border-top-color: green;
-}
-
-li a
-{
-	text-decoration:none;
-	color:black;
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size: 35px;
-	padding: 0px;
-	padding-left: 25px;
-	padding-right: 25px;
-
-	text-align:center;
-}
-
-#nav a:hover
-{
-	background-color:#ffffff;
 }
 
 #footer
